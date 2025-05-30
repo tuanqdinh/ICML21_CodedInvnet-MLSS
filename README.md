@@ -54,7 +54,7 @@ python ./main.py --config_file configs/mnist.json -fusion --nactors 2 -test_fusi
 
 **Citation**: If you find this work useful, please cite our paper:
 
-```tex
+```bibtex
 @inproceedings{pmlr-v139-dinh21a,
   title={Coded-InvNet for Resilient Prediction Serving Systems},
   author={Dinh, Tuan and Lee, Kangwook},

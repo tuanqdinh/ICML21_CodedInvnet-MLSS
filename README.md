@@ -18,14 +18,17 @@ Coded-InvNet is a novel approach designed to enhance the resilience of predictio
 
 **Results**: Our experiments demonstrate that Coded-InvNet can recover missing predictions with an accuracy of 85.9%, outperforming previous state-of-the-art methods by 32.5%, even with only 10% compute resource overhead.
 
-
-## Getting Started
+--- 
+## Training 
 
 *Prerequisites*
-	•	Python 3.6 or higher
-	•	PyTorch 1.7 or higher
+* Python 3.6 or higher
+* PyTorch 1.7 or higher
 
-Here is an example of the script on MNIST, using i-ResNet-64 for the invertible network and PixPix for the fusion network, with k=2.
+We show the script for training our model on MNIST, with the configuration:
+* using i-ResNet-64 for the invertible network
+* PixPix for the fusion network
+* k=2
 
 #### 1. Train the invertible network
 ```py
